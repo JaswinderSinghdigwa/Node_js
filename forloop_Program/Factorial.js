@@ -1,12 +1,9 @@
-function factorial(n)
-    {
-        var res = 1, i;
-        for (i = 2; i <= n; i++)
-            res *= i;
-        return res;
+// Driver method
+//const config = require('../forloop_Program/Utility');
+    let i,fact=1,num;
+    //console.log(config);
+    num = 5
+    for(i=1;i<=num;i++){
+        fact=fact*i;
     }
- 
-    // Driver method
-     
-        var num = 5;
-        console.log("Factorial of " + num + " is " +factorial(num));
+    console.log("Factorial of " + num + " is " +fact);
